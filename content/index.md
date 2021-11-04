@@ -3,12 +3,12 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Startsida
 ==========================
 
 Hej!
 
-Mitt namn är Eric Samuelsson. Född och uppvuxen i Norrköping, Östergötland.
+Mitt namn är Eric. Född och uppvuxen i Norrköping, Östergötland.
 
 Jag gillade bilar framförallt sopbilar när jag var barn. Därefter hamnade jag på det tekniska spåret och blev intresserad
 

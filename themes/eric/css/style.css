@@ -1,21 +1,15 @@
-body {
-    background-color: bisque;
-}
-
 * {
     box-sizing: border-box;
-    border: 0 none;
     margin: 0;
-    padding: 0;
+}
+
+.header a, .footer a {
+    color: black;
 }
 
 .logo {
     width: 50%;
     margin-left: 3%;
-}
-
-ol, ul {
-    padding-left: 1.5em;
 }
 
 .hidden {
@@ -29,24 +23,17 @@ html, body {
 /* Placement */
 
 body {
-    display: flex;
-    flex-direction: column;
+    background-color: bisque;
 }
 
 .main {
-    flex: 1 0 auto;
     margin-left: 10%;
-}
-
-.header, .footer {
-    flex: 0 0 auto;
 }
 
 /* Header */
 
 .header, .site-header {
     display: flex;
-    justify-content: space-between;
 }
 
 /* Title */
@@ -67,10 +54,6 @@ body {
     }
 }
 
-.title * {
-    color: #111;
-}
-
 .title p {
     font-style: italic;
 }
@@ -80,12 +63,11 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
-    text-align: center;
+    border-top: 1px solid black;
 }
 
-.footer a {
-    color: #222;
+.footer p {
+    margin-left: 40%;
 }
 
 .footer .social {
@@ -97,7 +79,6 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
 }
 
 p, td, th, li, dd {
@@ -113,45 +94,4 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
     max-width: 100%;
-}
-
-/* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
-
-/* Code */
-
-code {
-    margin: 0 0.1em;
-    padding: 0.1em 0.2em;
-    border: 1px solid #ccc;
-    border-radius: 0.3em;
-    background: #f5f5f5;
-    font-family: monospace;
-    font-size: 0.85rem;
-    line-height: 1.9824;
-}
-
-pre {
-    padding: 0 1em;
-    border: 1px solid #ccc;
-    border-radius: 0.3em;
-    background: #f5f5f5;
-}
-
-pre code {
-    display: block;
-    margin: 0;
-    padding: 1.1111em 0;
-    border: 0 none;
-    background: transparent;
-    overflow-x: auto;
-    line-height: 1.4;
-}
-
-/* Blockquote */
-
-blockquote {
-    font-style: italic;
-    margin-left: 1em;
-    padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
 }
