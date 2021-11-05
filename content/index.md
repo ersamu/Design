@@ -18,4 +18,4 @@ Förutom intresse för programmering är jag också intresserad av sport, fast i
 
 bland annat fotboll, ishockey, basket och speedway.
 
-![football](assets/img/football.jpg)
+![football](image/football.jpg)
