@@ -1,0 +1,24 @@
+/* Distance to the right of the screen width is less than 930px */
+
+@media (max-width: 930px) {
+    .main {
+        margin-right: 1rem;
+    }
+}
+
+/* Changed settings if the screen width is less than 767px */
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        min-width: 30%;
+    }
+}

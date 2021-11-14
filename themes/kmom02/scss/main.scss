@@ -1,0 +1,22 @@
+/* Background color bisque on body unless otherwise stated */
+
+body {
+    background-color: $main-background;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    margin-left: 10%;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,33 @@
+/* Black color on the links in the header */
+
+.header a {
+    color: $background-footer-and-links-in-header;
+}
+
+.logo {
+    width: 50%;
+    margin-left: 3%;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Lightblue background in the header */
+
+.header,
+.site-header {
+    display: flex;
+    background-color: $background-color-header;
+}
+
+.title,
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+/* Italic text on the p-tag in .title */
+
+.title p {
+    font-style: italic;
+}
