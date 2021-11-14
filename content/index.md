@@ -1,6 +1,6 @@
 ---
 Title: Home
-Description: This is our index page.
+Description: This is my index page.
 ---
 
 Startsida
@@ -16,6 +16,6 @@ av hur programmering fungerade. Ett intresse som ökade när jag läste tekniska
 
 Förutom intresse för programmering är jag också intresserad av sport, fast inte att utöva själv utan kolla på,
 
-bland annat fotboll, ishockey, basket och speedway.
+bland annat fotboll, ishockey &#127954;, basket &#127936; och speedway.
 
 ![football](image/football.jpg)
