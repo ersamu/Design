@@ -1,8 +1,8 @@
-/* Distance to the right of the screen width is less than 930px */
+/* Distance to the right of the screen width is less than 500px */
 
-@media (max-width: 930px) {
+@media (max-width: 500px) {
     .main {
-        margin-right: 1rem;
+        margin-right: 10%;
     }
 }
 
