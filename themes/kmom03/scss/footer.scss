@@ -1,0 +1,22 @@
+/* White color on the link in the footer */
+
+.footer a {
+    color: $color-of-text-and-link-in-footer;
+}
+
+/* Main settings for the footer */
+
+.footer {
+    margin-top: 2em;
+    height: 3.5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-footer-and-links-in-header;
+    color: $color-of-text-and-link-in-footer;
+}
+
+/* Indented text in the footer */
+
+.footer p {
+    margin-left: 40%;
+}
