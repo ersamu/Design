@@ -6518,6 +6518,7 @@ dd {
 
 /* Background color bisque on body unless otherwise stated */
 body {
+  line-height: 1.4;
   background-color: #ffe4c4;
 }
 
@@ -6532,10 +6533,21 @@ body {
 
 .main {
   margin-left: 10%;
+  margin-right: 20%;
 }
 
 img {
   max-width: 100%;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 1.75rem;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 2.5rem;
 }
 
 /* Black color on the links in the header */
@@ -6571,7 +6583,7 @@ img {
 
 /* White color on the link in the footer */
 .footer a {
-  color: #FFF;
+  color: #fff;
 }
 
 /* Main settings for the footer */
@@ -6581,7 +6593,7 @@ img {
   display: flex;
   justify-content: space-between;
   background-color: #000;
-  color: #FFF;
+  color: #fff;
 }
 
 /* Indented text in the footer */
@@ -6589,10 +6601,10 @@ img {
   margin-left: 40%;
 }
 
-/* Distance to the right of the screen width is less than 930px */
-@media (max-width: 930px) {
+/* Distance to the right of the screen width is less than 500px */
+@media (max-width: 500px) {
   .main {
-    margin-right: 1rem;
+    margin-right: 10%;
   }
 }
 /* Changed settings if the screen width is less than 767px */
