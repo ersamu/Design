@@ -1,0 +1,28 @@
+/* Font-family Libre Franklin on the page unless otherwise stated */
+
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 1.5rem;
+}
+
+/* Font-family Heebo on the headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Handles long words */
+
+p,
+td,
+th,
+li,
+dd {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
