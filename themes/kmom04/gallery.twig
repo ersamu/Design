@@ -1,0 +1,29 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="bold-text">
+            {{ content }}
+        </div>
+
+        <div class="technology-container">
+            {% for image in meta["Images"] %}
+                <a href="{{ base_url }}{{ image.url }}" target="_blank">
+                    <picture>
+                        <source media="(min-width: 920px)" srcset="{{ base_url}}{{ image.url }}?w=275&h=275&q=50&crop-to-fit&area={{image.area}}">
+                        <source media="(min-width: 400px)" srcset="{{ base_url}}{{ image.url }}?w=300&h=300&q=50&crop-to-fit&area={{image.area}}">
+                        <img src="{{ base_url }}{{ image.url }}?w=200&h=200&q=50&crop-to-fit&area={{image.area}}" alt="{{ image.alt }}">
+                    </picture>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div class="embed-container">
+            <iframe src="https://www.youtube.com/embed/6dOwHzCHfgA" frameborder="0" allowfullscreen=></iframe>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
