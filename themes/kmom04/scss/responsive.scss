@@ -9,6 +9,13 @@
 /* Changed settings if the screen width is less than 767px */
 
 @media (max-width: 767px) {
+    .technology-article .sidebar {
+        display: none;
+    }
+}
+
+/* Changed settings if the screen width is less than 1000px */
+@media (max-width: 1000px) {
     .title,
     .logo {
         padding: 1em 1em 1em 0;
@@ -20,9 +27,5 @@
 
     .logo {
         min-width: 30%;
-    }
-
-    .technology-article .sidebar {
-        display: none;
     }
 }
