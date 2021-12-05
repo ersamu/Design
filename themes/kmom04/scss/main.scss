@@ -18,7 +18,10 @@ body {
     margin-right: 20%;
 }
 
-img {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
