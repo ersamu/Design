@@ -6470,6 +6470,7 @@ code {
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
+  color: #000;
 }
 
 /* Main settings for the pre tag */
@@ -6557,6 +6558,10 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+.black {
+  color: #000;
+}
+
 .header a {
   color: #000;
 }
@@ -6573,7 +6578,7 @@ h2 {
 .header,
 .site-header {
   display: flex;
-  background-color: #ad7445;
+  background-image: linear-gradient(#ff0, #ff4500);
 }
 
 .title,
@@ -6732,4 +6737,9 @@ li a {
   top: 40px;
   width: 100%;
   height: 100%;
+}
+
+.galleryimg {
+  border: 5px solid deepskyblue;
+  box-shadow: 15px 15px 15px 0 #000037;
 }
