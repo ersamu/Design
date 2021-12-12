@@ -21,7 +21,7 @@ För att plocka ut färgerna för de olika webbplatserna använder jag mig av Co
 Resultat
 -----------------------
 
-## [Regeringen](https://www.regeringen.se/)
+<h2><a class="black" href="https://www.regeringen.se/">Regeringen</a></h2>
 
 ![Regeringen](../content/analysis/img/regeringen.png)
 
@@ -42,7 +42,7 @@ De använder sig inte av någon accentfärg. Vad jag kan se står inte färgerna
 Som typsnitt använder de olika stilar av Open Sans som är ett sans-serif typsnitt.
 Färgvalen och typografin motsvarar den profil som jag tror att webbplatsen vill ha eftersom besökaren ändå hittar den informationen de vill ha på hemsidan.
 
-## [Norrköpings kommun](https://www.norrkoping.se/)
+<h2><a class="black" href="https://www.norrkoping.se/">Norrköpings kommun</a></h2>
 
 ![Norrköpings kommun](../content/analysis/img/norrkopingkommun.png)
 
@@ -60,7 +60,7 @@ Följande färger finns på Norrköpings kommuns förstasida.
 
 Jag anser att det är ett akromatiskt färgschema för att de har på sin hemsida svart, nyanser av grått och vitt. De använder sig inte av någon accentfärg, eftersom de endast har svart, grått och vitt på sin hemsida. Typsnittet Noto Sans är ett sans-serif typsnitt. Hemsidan är bra komponerad med färgval som passar till bilderna.
 
-## [Svenska basketförbundet](https://www.basket.se/)
+<h2><a class="black" href="https://www.basket.se/">Svenska basketförbundet</a></h2>
 
 ![Svenska basketförbundet](../content/analysis/img/basketforbundet.png)
 
