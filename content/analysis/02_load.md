@@ -21,23 +21,23 @@ Jag har sparat mina mätvärden i ett Google Kalkylark. Sidornas laddningstider 
 Resultat
 -----------------------
 
-## [Svenska Basketförbundet](https://www.basket.se/)
+<h2><a class="black" href="https://www.basket.se/">Svenska Basketförbundet</a></h2>
 
 ![Basketförbundet](%assets_url%/img/basketforbundet.png)
 För att det ska gå snabbare rekommenderar jag att man väntar med att läsa in bilder som inte visas på skärmen.
 
-## [Svenska Fotbollsförbundet](https://www.svenskfotboll.se/)
+<h2><a class="black" href="https://www.svenskfotboll.se/">Svenska Fotbollsförbundet</a></h2>
 
 ![Fotbollsförbundet](%assets_url%/img/fotbollsforbundet.png)
 Väldigt bra värden överlag. Det enda man borde förbättra är att vänta med inläsning av bilder som inte visas på skärmen, men jag tycker ändå de har väldigt bra värden.
 
-## [Svenska Ishockeyförbundet](https://www.swehockey.se/)
+<h2><a class="black" href="https://www.swehockey.se/">Svenska Ishockeyförbundet</a></h2>
 
 ![Ishockeyförbundet](%assets_url%/img/ishockeyforbundet.png)
 Här går det lite för långsamt och det är bilderna som saktar ner flödet. Man bör skicka bilderna i ett modernare format, använda rätt storlek och precis som de andra sidorna vänta med inläsning av bilder som inte visas på skärmen.
 
 ### Sammanställning
-<iframe class="sheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5JsMP8W-6JKcDZYGimUzrnW3A9ncCi1iI7qBBDDGHSAjlU_nSB4b95fVnTt3tsP9VS1tDnDsLGcTE/pubhtml?widget=true&amp;headers=false" scrolling="no"></iframe>
+<iframe class="sheet" title="sheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5JsMP8W-6JKcDZYGimUzrnW3A9ncCi1iI7qBBDDGHSAjlU_nSB4b95fVnTt3tsP9VS1tDnDsLGcTE/pubhtml?widget=true&amp;headers=false" scrolling="no"></iframe>
 
 Analys
 -----------------------
@@ -56,7 +56,7 @@ Referenser
 
 Google Kalkylark
 
-[Google Pagespeed](https://pagespeed.web.dev/)
+<p><a class="black" href="https://pagespeed.web.dev/">Google Pagespeed</a></p>
 
 Inspektera - Network
 
